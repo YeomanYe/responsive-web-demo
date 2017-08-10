@@ -136,14 +136,22 @@
     border-radius:5px;
     line-height:35px;
     color:black;
-    padding:0 45px;
-    margin:0 15px;
+    padding:0 35px;
+    margin:0 10px;
 }
 
 #sidebar a{
     display:block;
     float:left;
     text-decoration:none;
+}
+
+#sidebar h1{
+    // margin-bottom:100px;
+    text-transform:uppercase;
+    display:block;
+    overflow: hidden;
+    font-size:30px;
 }
 
 #content {
