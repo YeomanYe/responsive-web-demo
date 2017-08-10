@@ -51,45 +51,160 @@
     }
 }
 
+#navigation ul li a{
+    display:inline-block;
+    font-size:30px;
+    margin:0 35px;
+    text-decoration:none;
+}
+
+#navigation ul li:first-child a{
+    text-decoration:underline;
+    margin-left:0px;
+}
+
+#navigation ul li:last-child a{
+    // text-decoration:underline;
+    margin-right:0px;
+}
+
+#navigation ul li:nth-child(odd) a{
+    color:hsl(359, 99%, 50%);
+}
+
+#navigation ul li:nth-child(even) a{
+    color:black;
+}
+
 #wrapper {
     margin-right: auto;
     margin-left: auto;
-    width: 960px;
+    width: 1300px;
 }
 
 #header {
     margin-right: 10px;
     margin-left: 10px;
-    width: 940px;
-    background-color: #779307;
-    background-image:url(../img/buntingFW.png);
+    width: 1250px;
+    background-repeat: repeat-x;
+    background-image: url(../img/buntingFW.png);
 }
 
 #navigation ul li {
     display: inline-block;
 }
 
+.oscarMain {
+    /*  margin-right: 30px;
+   margin-top: 0px;
+   width: 150px;
+   height: 394px; */
+    float: left;
+    margin:50px 10px;
+}
+
 #sidebar {
+    // float:left;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
-    background-color: #fe9c00;
-    width: 220px;
+    width: 420px;
+}
+
+#logo {
+    display: block;
+    padding-top: 75px;
+    color: #0d0c0c;
+    text-transform: uppercase;
+    font-family: 'BebasNeueRegular';
+    font-size: 3em;
+}
+
+#logo span{
+    color:#DFDAE0;
+}
+
+.sideImage {
+    // float: left;
+    width: 200px;
+}
+
+#sidebar .moreInfo{
+    display:block;
+    font-size:15px;
+    border: 1px solid #999999;
+    border-radius:5px;
+    line-height:35px;
+    color:black;
+    padding:0 45px;
+    margin:0 15px;
+}
+
+#sidebar a{
+    display:block;
+    float:left;
+    text-decoration:none;
 }
 
 #content {
     margin-right: 10px;
     float: right;
     margin-left: 10px;
-    width: 700px;
-    background-color: #dedede;
+    width: 800px;
+    // background-color: #dedede;
+}
+
+#content h1{
+    font-size:60px;
+}
+
+#content h1 em{
+    font-size:40px;
+    display:block;
+}
+
+#content p{
+    color:#757474;
+    font-size:26px;
+    line-height:40px;
+}
+
+#content p em{
+    text-decoration: underline;
+}
+
+#content a.button{
+    display:inline-block;
+    background: #B01C20;
+    color:white;
+    padding:40px 20px;
+    margin:40px;
+    border-radius: 8px;
+    font-size:25px;
 }
 
 #footer {
     margin-right: 10px;
     margin-left: 10px;
     clear: both;
-    background-color: #663300;
-    width: 940px;
-    background-image:url(../img/buntingFWinvert.png);
+    width: 1250px;
+    background-repeat: repeat-x;
+    background-image: url(../img/buntingFWinvert.png);
+    padding-bottom: 43px;
+    float: left;
+    margin-top: 20px;
+    padding-top: 33px;
+    background-position: 0 bottom;
+    border-top: 4px double #bfbfbf;
+}
+    
+
+#footer p {
+    margin-bottom: 38px;
+    text-align: center;
+    font-size: 1.125em/* 18px Ã· 16px */
+    ;
+    font-family: 'BebasNeueRegular';
+    text-transform: uppercase;
+    color: #757474;
 }
