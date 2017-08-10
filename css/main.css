@@ -100,7 +100,7 @@
    width: 150px;
    height: 394px; */
     float: left;
-    margin:50px 10px;
+    margin:50px 0px;
 }
 
 #sidebar {
@@ -126,7 +126,7 @@
 
 .sideImage {
     // float: left;
-    width: 200px;
+    width: 170px;
 }
 
 #sidebar .moreInfo{
@@ -210,9 +210,13 @@
 #footer p {
     margin-bottom: 38px;
     text-align: center;
-    font-size: 1.125em/* 18px Ã· 16px */
+    font-size: 13px;
     ;
     font-family: 'BebasNeueRegular';
     text-transform: uppercase;
     color: #757474;
+}
+
+#footer a{
+    color:#000000;
 }
