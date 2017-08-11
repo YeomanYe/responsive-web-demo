@@ -1,9 +1,9 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     #wrapper,
     #header,
     #footer,
     #navigation {
-        width: 748px;
+        width: 728px;
         margin: 0px;
     }
     #logo {
@@ -22,13 +22,21 @@
         line-height: 60px;
         font-size: 40px;
     }
-    #content,
-    #sidebar {
+    #content,#sidebar {
         margin-top: 20px;
         padding-right: 10px;
         padding-left: 10px;
-        width: 728px;
+        width: 400px;
     }
+
+    #sidebar{
+        float:left;
+    }
+
+    #content{
+        width:300px;
+    }
+
     .oscarMain {
         margin-right: 30px;
         margin-top: 0px;
@@ -104,7 +112,7 @@
 }
 
 #sidebar {
-    // float:left;
+    float:left;
     margin-right: 10px;
     margin-left: 10px;
     float: left;
@@ -150,13 +158,14 @@
     // margin-bottom:100px;
     text-transform:uppercase;
     display:block;
+    // float:right;
     overflow: hidden;
     font-size:30px;
 }
 
 #content {
     margin-right: 10px;
-    float: right;
+    // float: right;
     margin-left: 10px;
     width: 800px;
     // background-color: #dedede;
@@ -211,7 +220,6 @@
     margin-bottom: 38px;
     text-align: center;
     font-size: 13px;
-    ;
     font-family: 'BebasNeueRegular';
     text-transform: uppercase;
     color: #757474;
