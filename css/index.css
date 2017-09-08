@@ -25,9 +25,12 @@ body{
 }
 
 
-#navigation ul li:hover{
-    text-shadow: 0px 0px 30px #000000;
+#navigation ul li a:hover{
+    transition:all 0.7s;
+    color:#000;
+    animation:navhover 1.5s infinite ease-in;
 }
+
 
 #navigation ul li a{
     text-decoration:none;
@@ -225,4 +228,16 @@ body{
 
 #footer a{
     color:#000000;
+}
+
+@keyframes navhover{
+    0% {
+        text-shadow: 0 0 4px #000000;
+    }
+    50% {
+        text-shadow: 0 0 40px #000000;
+    }
+    100% {
+        text-shadow: 0 0 4px #000000;
+    }
 }

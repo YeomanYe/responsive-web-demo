@@ -29,7 +29,7 @@
         padding-top: 2.75%;
     }
     #navigation ul li a {
-        background-color: #dedede;
+        // background-color: #dedede;
         line-height: 2em;
         font-size: 1em;
     }
@@ -88,5 +88,11 @@
     .oscarMain{
         width:20%;
         height:auto;
+    }
+    #navigation ul li a:hover{
+        display:block;
+        margin-left: 5%;
+        background-color: #999;
+        padding-left: 2%;
     }
 }
