@@ -1,0 +1,92 @@
+@media screen and (min-width: 1000px){
+    #content p {
+        font-size: 2.0em;
+        line-height: 1.2em;
+        margin-top: 2%;
+    }
+    #content a.button{
+        font-size:1.56em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #wrapper,
+    #header,
+    #footer,
+    #navigation {
+        width: 100%;
+        margin: 0px;
+    }
+    #logo {
+        text-align: center;
+    }
+    #navigation {
+        text-align: center;
+        background-image: none;
+        border-top-color: #bfbfbf;
+        border-top-style: double;
+        border-top-width: 4px;
+        padding-top: 2.75%;
+    }
+    #navigation ul li a {
+        background-color: #dedede;
+        line-height: 2em;
+        font-size: 1em;
+    }
+    #content,#sidebar {
+        margin-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 94.79%;
+    }
+
+    .oscarMain {
+        margin-right: 30px;
+        margin-top: 0px;
+        width: 150px;
+        height: 394px;
+    }
+    #sidebar {
+        float:left;
+        border-right: none;
+        border-top: 2px solid #e8e8e8;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .overHyped {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:630px){
+    #content a.button{
+        text-align:center;
+        width:85%;
+    }
+    #navigation ul li{
+        display:block;
+        font-size:1.5em;
+    }
+    .sideBlock a{
+        margin:0;
+    }
+    #logo{
+        // margin:10% 0;
+        padding-top:10%;
+        font-size:2em;
+    }
+    #content h1{
+        font-size:1.8em;
+        // margin:10% 0;
+        // line-height:1.5em;
+    }
+    #content p{
+        font-size:1em;
+        margin:3% 0;
+    }
+    .oscarMain{
+        width:20%;
+        height:auto;
+    }
+}

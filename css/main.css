@@ -1,79 +1,47 @@
-@media screen and (max-width:1024px) {
-    #wrapper,
-    #header,
-    #footer,
-    #navigation {
-        width: 728px;
-        margin: 0px;
-    }
-    #logo {
-        text-align: center;
-    }
-    #navigation {
-        text-align: center;
-        background-image: none;
-        border-top-color: #bfbfbf;
-        border-top-style: double;
-        border-top-width: 4px;
-        padding-top: 20px;
-    }
-    #navigation ul li a {
-        background-color: #dedede;
-        line-height: 60px;
-        font-size: 40px;
-    }
-    #content,#sidebar {
-        margin-top: 20px;
-        padding-right: 10px;
-        padding-left: 10px;
-        width: 400px;
-    }
 
-    #sidebar{
-        float:left;
-    }
+*{
+    transition:all 0.5s;
+    margin:0;
+    padding: 0;
+}
 
-    #content{
-        width:300px;
-    }
+body{
+    background-color: #fff;
+    background-image: linear-gradient(#f3f3f3 2px, transparent 2px), linear-gradient(0, #f3f3f3 2px, transparent 2px), linear-gradient(hsla(0,92%,0%,.03) 1px, transparent 1px), linear-gradient(0, hsla(0,92%,0%,.03) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
 
-    .oscarMain {
-        margin-right: 30px;
-        margin-top: 0px;
-        width: 150px;
-        height: 394px;
-    }
-    #sidebar {
-        border-right: none;
-        border-top: 2px solid #e8e8e8;
-        padding-top: 20px;
-        margin-bottom: 20px;
-    }
-    .sideBlock {
-        width: 46%;
-        float: left;
-    }
-    .overHyped {
-        margin-top: 0px;
-        margin-left: 50px;
-    }
+#navigation {
+    margin:2% 0;
+}
+
+#navigation ul li{
+    // display:table-cell;
+    // text-align:center;
+    text-align:left;
+    font-size:1.875em;
+    margin:0 2.6%;
+}
+
+
+#navigation ul li:hover{
+    text-shadow: 0px 0px 30px #000000;
 }
 
 #navigation ul li a{
-    display:inline-block;
-    font-size:30px;
-    margin:0 35px;
     text-decoration:none;
 }
 
+
 #navigation ul li:first-child a{
     text-decoration:underline;
-    margin-left:0px;
+    margin-left:0;
 }
 
 #navigation ul li:last-child a{
     // text-decoration:underline;
-    margin-right:0px;
+    margin-right:0;
 }
 
 #navigation ul li:nth-child(odd) a{
@@ -84,22 +52,22 @@
     color:black;
 }
 
+#navigation ul li {
+    display: inline-block;
+}
+
 #wrapper {
     margin-right: auto;
     margin-left: auto;
-    width: 1300px;
+    width: 98%;
 }
 
 #header {
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 1250px;
+    margin-right: 0.77%;
+    margin-left: 0.77%;
+    width: 96.15%;
     background-repeat: repeat-x;
     background-image: url(../img/buntingFW.png);
-}
-
-#navigation ul li {
-    display: inline-block;
 }
 
 .oscarMain {
@@ -108,20 +76,22 @@
    width: 150px;
    height: 394px; */
     float: left;
-    margin:50px 0px;
+    margin:6.25% 0;
 }
 
 #sidebar {
     float:left;
-    margin-right: 10px;
-    margin-left: 10px;
-    float: left;
-    width: 420px;
+    border-right-color: #e8e8e8;
+    border-right-width: 2px;
+    border-right-style: solid;
+    margin:2% 0.77%;
+    width: 32.61%;
+    background:linear-gradient(90deg, #fff 0%, #e4e4e4 48.7%, #fff 100%);
 }
 
 #logo {
     display: block;
-    padding-top: 75px;
+    padding-top: 6%;
     color: #0d0c0c;
     text-transform: uppercase;
     font-family: 'BebasNeueRegular';
@@ -131,27 +101,47 @@
 #logo span{
     color:#DFDAE0;
 }
-
-.sideImage {
+.sideBlock a{
+    max-width:47%;
+    display:block;
+    margin:0 1%;
+    float:left;
+    text-decoration:none;
+}
+.sideBlock img {
     // float: left;
-    width: 170px;
+    // transform:rotate(1deg);
+    max-width: 100%;
+    height:auto;
+}
+
+.sideBlock a:nth-child(odd) img{
+    transform:rotate(3deg);
+}
+
+.sideBlock a:nth-child(even) img{
+    transform:rotate(-3deg);
+}
+
+.sideImage{
+    margin:0 2%;
 }
 
 #sidebar .moreInfo{
     display:block;
-    font-size:15px;
+    align:center;
+    font-size:0.5em;
     border: 1px solid #999999;
-    border-radius:5px;
-    line-height:35px;
+    border-radius:4px;
+    line-height:2.3em;
     color:black;
-    padding:0 35px;
-    margin:0 10px;
+    text-align:center;
+    // padding:0 7.78%;
+    margin:4% 2.22%;
 }
 
-#sidebar a{
-    display:block;
-    float:left;
-    text-decoration:none;
+.moreInfo:hover{
+    box-shadow:0px 3px 4px #444;
 }
 
 #sidebar h1{
@@ -159,31 +149,31 @@
     text-transform:uppercase;
     display:block;
     // float:right;
-    overflow: hidden;
-    font-size:30px;
+    clear:both;
+    font-size:1.875em;
 }
 
 #content {
-    margin-right: 10px;
-    // float: right;
-    margin-left: 10px;
-    width: 800px;
+    margin:0 0.77%;
+    float: right;
+    width: 61.53%;
     // background-color: #dedede;
 }
 
 #content h1{
-    font-size:60px;
+    font-size:3.75em;
 }
 
 #content h1 em{
-    font-size:40px;
+    font-size:0.67em;
     display:block;
 }
 
 #content p{
     color:#757474;
-    font-size:26px;
-    line-height:40px;
+    font-size:1.5em;
+    line-height:1.2em;
+    margin:1.5%;
 }
 
 #content p em{
@@ -194,32 +184,40 @@
     display:inline-block;
     background: #B01C20;
     color:white;
-    padding:40px 20px;
-    margin:40px;
-    border-radius: 8px;
-    font-size:25px;
+    padding:5% 2.5%;
+    margin:5%;
+    border-radius: 12px;
+    font-size:1.0em;
+}
+
+#content a.button:hover{
+    cursor: pointer;
+    border:1px solid black;
+    box-shadow:5px 5px 5px hsla(0, 0%, 26.6667%, 0.8);
+    color:black;
+    text-shadow:0px 1px white;
 }
 
 #footer {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0.77%;
+    margin-left: 0.77%;
     clear: both;
-    width: 1250px;
+    width: 96.15%;
     background-repeat: repeat-x;
     background-image: url(../img/buntingFWinvert.png);
-    padding-bottom: 43px;
+    padding-bottom: 3.31%;
     float: left;
-    margin-top: 20px;
-    padding-top: 33px;
+    margin-top: 1.54%;
+    padding-top: 2.54%;
     background-position: 0 bottom;
-    border-top: 4px double #bfbfbf;
+    border-top: 0.31% double #bfbfbf;
 }
     
 
 #footer p {
-    margin-bottom: 38px;
+    margin-bottom: 3.04%;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.84em;
     font-family: 'BebasNeueRegular';
     text-transform: uppercase;
     color: #757474;
