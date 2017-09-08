@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>And the winner isn't</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/videos.css">
     <link rel="stylesheet" href="css/index-media.css" type="text/css">
 </head>
 
@@ -25,11 +26,13 @@
             </nav>
         </header>
         <div id="content">
-            <img src="img/oscar.png" class="oscarMain">
-            <h1>Every year<em>when I watch the Oscars I'm annoyed…</em></h1>
-            <p>that films like <b>King Kong</b>, <b>Moulin Rouge</b> and <b>Munich</b> get the statue whilst the <em>real</em> cinematic heroes lose out. Not very Hollywood is it?</p>
-            <p>We’re here to put things right.</p>
-            <a class="button">THESE SHOULD HAVE WON >></a>
+            <h1>HTML5 <em>Using the video element</em></h1>
+            <p>With HTML5, video can be inserted using the &lt;video&gt; tag. This is covered in Chapter 4's 'Embedding media in HTML5 section'. However, iframe content is a little trickier...</p>
+            <p>Here we are using the <a href="https://github.com/davatron5000/FitVids.js">FitVids jQuery plugin</a> to make iframe video content (a trailer from the awesome Midnight Run) work in a responsive web design</p>
+            <br>
+            <div class="fluid-width-video-wrapper" style="padding-top: 75%;">
+                <iframe src="http://www.youtube.com/embed/B1_N28DA3gY?rel=0" frameborder="0" allowfullscreen=""></iframe>
+            </div>
         </div>
         <aside id="sidebar">
             <section>

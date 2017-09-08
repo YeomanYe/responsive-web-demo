@@ -1,0 +1,56 @@
+@media screen and (min-width: 1000px) {
+    .Qcontainer {
+        height: 100%;
+        width: 32%;
+        margin-right: 1%;
+    }
+
+    .back {
+        width: 73%;
+        height: 125%;
+    }
+
+    .back h5 {
+        font-size: 4em;
+    }
+
+    #content h1 {
+        font-size: 4.2em;
+    }
+
+    #content h2 {
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .back {
+        width: 73%;
+        height: 90%;
+    }
+
+    .back h5 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .Qcontainer {
+        height: 100%;
+        width: 32%;
+        margin-right: 1%;
+    }
+    
+    #content h2 {
+        font-size: 1.0em;
+        margin: 3% 0;
+    }
+    .back {
+        width: 73%;
+        height: 80%;
+    }
+
+    .back h5 {
+        font-size: 1em;
+    }
+}

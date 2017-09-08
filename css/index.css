@@ -116,6 +116,7 @@ body{
     // transform:rotate(1deg);
     max-width: 100%;
     height:auto;
+    animation:swing 0.1s 5 ease;
 }
 
 .sideBlock a:nth-child(odd) img{
@@ -164,6 +165,7 @@ body{
 }
 
 #content h1{
+    text-transform:uppercase;
     font-size:3.75em;
 }
 
@@ -239,5 +241,26 @@ body{
     }
     100% {
         text-shadow: 0 0 4px #000000;
+    }
+}
+
+@keyframes swing{
+    0%{
+        transform:rotate(5deg);
+    }
+    20%{
+        transform:rotate(10deg);
+    }
+    40%{
+        transform:rotate(15deg);
+    }
+    60%{
+        transform:rotate(10deg);
+    }
+    80%{
+        transform:rotate(5deg);
+    }
+    100%{
+        transform:rotate(0deg);
     }
 }
