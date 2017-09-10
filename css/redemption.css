@@ -27,17 +27,6 @@ input {
     float: right;
 }
 
-input:not([type="range"]), textarea, select {
-    border: 1px solid #bfbfbf;
-    padding: 0.2em;
-    font-size: 1.1em;
-    line-height: 1.2em;
-    background: #ffffff;
-    background: linear-gradient(top, #ffffff 0%,#ededed 8%,#ffffff 100%);
-    border-radius: 4px;
-    box-shadow: 2px 2px 5px hsla(0, 0%, 16.6667%, 0.1);
-}
-
 #redemption textarea {
     height: 60px;
     font-size: 1em;
