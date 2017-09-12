@@ -1,11 +1,11 @@
 @media screen and (min-width: 1000px){
     #content p {
-        font-size: 2.0em;
+        font-size: 2.0rem;
         line-height: 1.2em;
         margin-top: 2%;
     }
     #content a.button{
-        font-size:1.56em;
+        font-size:1.56rem;
     }
 }
 
@@ -30,7 +30,7 @@
     #navigation ul li a {
         // background-color: #dedede;
         line-height: 2em;
-        font-size: 1em;
+        font-size: 1rem;
     }
     #content,#sidebar {
         margin-top: 20px;
@@ -65,7 +65,7 @@
     }
     #navigation ul li{
         display:block;
-        font-size:1.5em;
+        font-size:1.5rem;
     }
     .sideBlock a{
         margin:0;
@@ -73,15 +73,18 @@
     #logo{
         // margin:10% 0;
         padding-top:10%;
-        font-size:2em;
+        font-size:2rem;
     }
     #content h1{
-        font-size:1.8em;
+        font-size:1.8rem;
         // margin:10% 0;
         // line-height:1.5em;
     }
+    #content h1 em{
+        font-size:1.3rem;
+    }
     #content p{
-        font-size:1em;
+        font-size:1rem;
         margin:3% 0;
     }
     .oscarMain{

@@ -20,7 +20,7 @@ body{
     // display:table-cell;
     // text-align:center;
     text-align:left;
-    font-size:1.875em;
+    font-size:1.875rem;
     margin:0 2.6%;
 }
 
@@ -98,7 +98,7 @@ body{
     color: #0d0c0c;
     text-transform: uppercase;
     font-family: 'BebasNeueRegular';
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 #logo span{
@@ -134,7 +134,7 @@ body{
 #sidebar .moreInfo{
     display:block;
     align:center;
-    font-size:0.5em;
+    font-size:0.5rem;
     border: 1px solid #999999;
     border-radius:4px;
     line-height:2.3em;
@@ -154,7 +154,7 @@ body{
     display:block;
     // float:right;
     clear:both;
-    font-size:1.875em;
+    font-size:1.875rem;
 }
 
 #content {
@@ -166,17 +166,17 @@ body{
 
 #content h1{
     text-transform:uppercase;
-    font-size:3.75em;
+    font-size:3.75rem;
 }
 
 #content h1 em{
-    font-size:0.67em;
+    font-size:2rem;
     display:block;
 }
 
 #content p{
     color:#757474;
-    font-size:1.5em;
+    font-size:1.5rem;
     line-height:1.2em;
     margin:1.5%;
 }
@@ -192,7 +192,7 @@ body{
     padding:5% 2.5%;
     margin:5%;
     border-radius: 12px;
-    font-size:1.0em;
+    font-size:1.0rem;
 }
 
 #content a.button:hover{
@@ -222,7 +222,7 @@ body{
 #footer p {
     margin-bottom: 3.04%;
     text-align: center;
-    font-size: 0.84em;
+    font-size: 0.84rem;
     font-family: 'BebasNeueRegular';
     text-transform: uppercase;
     color: #757474;
@@ -234,8 +234,8 @@ body{
 
 input:not([type="range"]), textarea, select {
     border: 1px solid #bfbfbf;
-    padding: 0.2em;
-    font-size: 1.1em;
+    padding: 0.2rem;
+    font-size: 1.1rem;
     line-height: 1.2em;
     background: #ffffff;
     background: linear-gradient(top, #ffffff 0%,#ededed 8%,#ffffff 100%);
